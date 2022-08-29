@@ -1,0 +1,114 @@
+.review
+ position: relative
+ padding-bottom: 100px
+ &::after
+  content: ''
+  height: 100%
+  width: 100%
+  background: url(../img/review/background.png) center bottom no-repeat
+  background-size: cover
+  position: absolute
+  bottom: -80%
+  z-index: 1
+ &-slider
+  z-index: 2
+ &-title
+  padding-top: 74px
+  margin-bottom: 122px
+  font-family: Gilroy
+  font-style: normal
+  font-weight: bold
+  font-size: 57px
+  color: #494949
+  mix-blend-mode: normal
+  text-align: center
+  position: relative
+  span
+   color: #FF4343
+  &::before
+   content: ''
+   width: 200px
+   height: 10px
+   background: linear-gradient(270deg, #FF4343 24.5%, rgba(255, 67, 67, 0) 66%)
+   border-radius: 27px
+   position: absolute
+   right: 48.5%
+   bottom: -20px
+ &-block
+  background: #F4F4F4
+  border-radius: 10px
+  padding: 50px 45px 30px
+  position: relative
+  &__img
+   border: 1px solid rgba(255, 0, 0, 0.1)
+   border-radius: 100%
+   padding: 6px
+   margin-right: 28px
+  &__info
+   display: flex
+   align-items: center
+   margin-bottom: 30px
+   position: relative
+  &__name
+   font-family: Gilroy
+   font-style: normal
+   font-weight: bold
+   font-size: 30px
+   line-height: 174.87%
+   color: #000000
+  &__city
+   font-family: Gilroy
+   font-style: normal
+   font-weight: normal
+   font-size: 14px
+   line-height: 169.5%
+   letter-spacing: 0.12em
+   color: #B3B3B3
+  &__text
+   font-family: Gilroy
+   font-style: normal
+   font-weight: normal
+   font-size: 16px
+   line-height: 27px
+   color: #8C8C8C
+   text-align: justify
+ &-next
+  position: absolute
+  z-index: 1
+  cursor: pointer
+  right: -130px
+  top: 50%
+  padding: 20px
+  margin-top: -25px
+  display: flex
+  justify-content: center
+  align-items: center
+  border: 1px solid rgba(255, 0, 0, 0.2)
+  box-sizing: border-box
+  border-radius: 2px
+  transition: 0.5s
+		&:hover
+   background: linear-gradient(180deg, #FF3E3E 0%, #D21919 100%)
+   box-shadow: 0px 2px 0px #951E1E
+   border-radius: 2px
+   transition: all 0.6s
+ &-prev
+  position: absolute
+  z-index: 1
+  cursor: pointer
+  left: -130px
+  top: 50%
+  padding: 20px
+  margin-top: -25px
+  display: flex
+  justify-content: center
+  align-items: center
+  border: 1px solid rgba(255, 0, 0, 0.2)
+  box-sizing: border-box
+  border-radius: 2px
+  transition: 0.5s
+  &:hover
+   background: linear-gradient(180deg, #FF3E3E 0%, #D21919 100%)
+   box-shadow: 0px 2px 0px #951E1E
+   border-radius: 2px
+   transition: all 0.6s

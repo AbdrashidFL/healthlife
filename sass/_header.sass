@@ -1,0 +1,140 @@
+.header
+ padding-top: 40px
+ background: linear-gradient(270.06deg, rgba(31, 0, 0, 0) -18.78%, rgba(38, 38, 38, 0.94) 76.19%), url(../img/header/background.jpg) no-repeat
+ background-size: cover
+ padding-bottom: 200px
+ position: relative
+ &::before
+   content: ''
+   background: url(../img/header/cloud.png) no-repeat
+   background-size: cover
+   width: 100%
+   height: 100%
+   position: absolute
+   bottom: -70%
+ &-feedback
+  display: flex
+  &__img
+   background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%)
+   padding: 25px
+   display: flex
+   justify-content: center
+   align-items: center
+   margin-left: auto
+  &__info
+   background: #262626
+   border-radius: 3px
+   p
+    font-family: Gilroy
+    font-style: normal
+    font-weight: bold
+    font-size: 21px
+    line-height: 26px
+    color: #FFFFFF
+    padding: 16px 20px 11px 21px
+    letter-spacing: 0.02em
+   ul
+    padding: 0 0 14px 83px
+    margin: 0
+    li
+     font-family: Gilroy
+     font-style: normal
+     font-weight: normal
+     font-size: 10px
+     line-height: 72.5%
+     color: #24FF47
+     span
+      color: #B4B4B4
+ &-subtitle
+  font-family: Gilroy
+  font-style: normal
+  font-weight: normal
+  font-size: 16px
+  line-height: 147.4%
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+  color: #FFFFFF
+  padding: 30px 0 62px 0
+  span
+   color: #FF4343
+ &-btn
+  padding: 28px 0px 28px 43px
+  background: linear-gradient(360deg, #D14646 21.88%, #FD5959 110.62%)
+  box-shadow: 0px 4px 0px #893636
+  border-radius: 3px
+  font-family: Gilroy
+  font-style: normal
+  font-weight: bold
+  font-size: 16px
+  line-height: 147.4%
+  color: #FFFFFF
+  position: relative
+  &::hover
+    box-shadow: 0px 0px 0px #893636
+  img
+   padding: 0 40px 0 43px
+ &-video
+  width: 510px
+  height: 285px
+  border-radius: 8px
+  position: relative
+  float: right
+  margin-top: 76px
+  iframe
+   border-radius: 8px
+  &::before
+   content: ''
+   background: linear-gradient(180deg, rgba(65, 65, 65, 0.81) 0%, rgba(20, 20, 20, 0.8) 135.96%), url(../img/header/man.jpg) no-repeat center
+   background-size: cover
+   width: 100%
+   height: 100%
+   position: absolute
+   border-radius: 8px
+  &__play
+   background: linear-gradient(180deg, #FF3E3E 0%, #D21919 100%)
+   box-shadow: 0px 3px 0px #621010
+   border-radius: 100%
+   position: absolute
+   top: 50%
+   right: 50%
+   transform: translate(50%, -50%)
+   img
+    padding: 39px 35px 36px 40px
+  &__time
+    background: #FFFFFF
+    border-radius: 17px
+    font-family: Montserrat
+    font-style: normal
+    font-weight: bold
+    font-size: 8px
+    line-height: 147.4%
+    color: #282828
+    padding: 3px 9px
+    position: absolute
+    top: 0
+    right: 0
+    margin: 16px 16px 0 0
+  &__subtitle
+    font-family: Montserrat
+    font-style: normal
+    font-weight: normal
+    font-size: 12px
+    line-height: 147.4%
+    text-align: center
+    color: #FFFFFF
+    position: absolute
+    top: 80%
+    right: 50%
+    transform: translate(50%, -50%)
+    span
+      font-weight: bold
+
+h1
+ font-family: Gilroy
+ font-style: normal
+ font-weight: bold
+ font-size: 57px
+ line-height: 110.5%
+ color: #FFFFFF
+ padding-top: 59px
+ span
+  color: #FF6565
